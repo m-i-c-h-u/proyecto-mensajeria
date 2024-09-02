@@ -1,0 +1,113 @@
+body {    
+    display: flex;
+    margin: 0;
+
+}
+
+.contactos {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: #f5b2b2;
+    border-left: 2px solid rgb(85, 71, 73);
+    border-right: 2px solid rgb(85, 71, 73);
+    border-top: 2px solid rgb(85, 71, 73);
+    height: auto;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 13%;
+    border-bottom: 2px solid rgb(85, 71, 73);
+}
+
+.chatimg1 {
+    width: 10%;
+    border-radius: 50%;
+    margin: 5%;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+h1,h2, p {
+    margin: 0%;
+    padding: 0%;
+}
+
+.iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: ;
+   
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgb(85, 71, 73);
+    padding: 10%;
+}
+
+.boton {
+    width: 80%;
+    background-color: #A491D2;
+    font-size: large;
+    padding: 5%;
+    border: none;
+}
+
+.boton:hover {
+    background-color: #f5b2b2;
+}
+
+.chats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 10%;
+    border-bottom: 2px solid rgb(85, 71, 73);
+}
+
+.chatimg2 {
+    width: 15%;
+    border-radius: 50%;
+    margin: 5%;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    width: 75%;
+    background-color: #fac9c9;
+}
+
+.logo {
+    width: 30%;
+    border-radius: 5%;
+    margin: 5%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+}
