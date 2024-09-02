@@ -1,18 +1,23 @@
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
 body {    
     display: flex;
     margin: 0;
-
+    padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .contactos {
     display: flex;
     flex-direction: column;
     width: 25%;
-    background-color: #f5b2b2;
-    border-left: 2px solid rgb(85, 71, 73);
-    border-right: 2px solid rgb(85, 71, 73);
-    border-top: 2px solid rgb(85, 71, 73);
-    height: auto;
+    background-color: #ffffff;
+    border-right: 2px solid #f7eaf5;
+    height: 100%;
 }
 
 .usuario {
@@ -20,7 +25,7 @@ body {
     flex-direction: row;
     align-items: center;
     height: 13%;
-    border-bottom: 2px solid rgb(85, 71, 73);
+    border-bottom: 2px solid #f7eaf5;
 }
 
 .chatimg1 {
@@ -34,29 +39,33 @@ div {
     flex-direction: column;
 }
 
-h1,h2, p {
-    margin: 0%;
-    padding: 0%;
-}
+
 
 .iconos {
     display: flex;
     flex-direction: row;
     justify-content: end;
-    align-items: ;
-   
+    align-items: end;
+    width: 50%;
+}
+
+i {
+    margin: 5%;
+    color: #c1b7d8;
+    font-size: 25px;
 }
 
 .botones {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid rgb(85, 71, 73);
+    border-bottom: 2px solid #f7eaf5;
     padding: 10%;
 }
 
 .boton {
     width: 80%;
+    color: #ffffff;
     background-color: #A491D2;
     font-size: large;
     padding: 5%;
@@ -64,7 +73,7 @@ h1,h2, p {
 }
 
 .boton:hover {
-    background-color: #f5b2b2;
+    background-color: #c1b7d8;
 }
 
 .chats {
@@ -72,7 +81,7 @@ h1,h2, p {
     flex-direction: row;
     align-items: center;
     height: 10%;
-    border-bottom: 2px solid rgb(85, 71, 73);
+    border-bottom: 2px solid #f7eaf5;
 }
 
 .chatimg2 {
@@ -87,13 +96,13 @@ h1,h2, p {
     justify-content: center; 
     align-items: center;   
     width: 75%;
-    background-color: #fac9c9;
+    background-color: #f7eaf5;
 }
 
 .logo {
-    width: 30%;
+    width: 28%;
     border-radius: 5%;
-    margin: 5%;
+    margin: 4%;
 }
 
 .texto {
@@ -104,10 +113,21 @@ h1,h2, p {
     text-align: center;
 }
 
+h1,h2, p {
+    margin: 0%;
+    padding: 0%;
+    color: #35333b;
+}
+
 h1 {
     font-size: 50px;
 }
 
 p {
-    font-size: 25px;
+    font-size: 23px;
+}
+
+.estado {
+    font-size: 20px;
+    color: #c1b7d8;
 }
